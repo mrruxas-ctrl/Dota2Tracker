@@ -9,6 +9,7 @@ PyQt5-приложение для сбора Steam ID игроков из Dota 2
 https://github.com/mrruxas-ctrl/Dota2Tracker/releases
 
 Exe не хранится в исходниках, чтобы при скачивании кода не тянуть тяжелый бинарник.
+Если OCR/Tesseract на ПК не установлен или exe собран без встроенного Tesseract, скачай `ocr_portable.zip` из этого же Release и распакуй папку `ocr` рядом с `Dota2Tracker.exe`.
 
 Для запуска на другом ПК достаточно положить рядом:
 
