@@ -27,7 +27,7 @@ python -m pip install -r requirements.txt
 python main.pyw
 ```
 
-OCR для готового exe работает через встроенный portable Tesseract. В исходниках папки моделей и Tesseract не хранятся. Если запускаешь из Python, можно поставить Tesseract в систему или положить portable Tesseract в:
+OCR для готового exe работает через встроенный portable Tesseract. В исходниках папки `ocr` нет. Если запускаешь из Python, можно поставить Tesseract в систему или создать папку рядом с исходниками и положить portable Tesseract так:
 
 ```text
 ocr/tesseract/tesseract.exe
@@ -51,7 +51,7 @@ ocr/tesseract/tessdata/eng.traineddata
 
 - `config.json`: настройки координат, hotkey, OCR-области, задержек и Steam level.
 - `tracker.db`: база игроков и ignore-list.
-- `ocr/`: рабочая папка OCR при запуске из исходников.
+- `ocr/`: не хранится в репозитории; создается приложением или добавляется вручную при запуске из исходников.
 
 ## Проверка
 
